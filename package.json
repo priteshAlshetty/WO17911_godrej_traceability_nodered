@@ -1,0 +1,19 @@
+{
+  "name": "traceability_nodered",
+  "version": "1.0.0",
+  "description": "nodered backup of traceability",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node-red --userDir ."
+  },
+  "keywords": [
+    "traceability"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-red": "^5.0.7",
+    "node-red-node-mysql": "~3.0.3"
+  }
+}
