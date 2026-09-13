@@ -6,16 +6,68 @@
                 "view-store-position": false,
                 "view-show-grid": true,
                 "view-snap-grid": true,
-                "view-grid-size": 20,
+                "view-grid-size": "20",
                 "view-node-status": true,
                 "view-node-info-icon": true,
                 "view-node-show-label": true,
-                "view-show-tips": true,
+                "view-show-tips": false,
                 "view-show-welcome-tours": true
             },
             "tours": {
                 "welcome": "5.0.7"
+            },
+            "sidebar": {
+                "state": {
+                    "v": 4,
+                    "tabs": [],
+                    "primary": {
+                        "width": 300,
+                        "top": {
+                            "tabs": [
+                                "info",
+                                "config",
+                                "help",
+                                "debug"
+                            ],
+                            "height": 576,
+                            "hidden": false,
+                            "active": "debug"
+                        },
+                        "bottom": {
+                            "tabs": [
+                                "context"
+                            ],
+                            "hidden": false,
+                            "active": "context"
+                        }
+                    },
+                    "secondary": {
+                        "width": 380,
+                        "top": {
+                            "tabs": [
+                                "explorer"
+                            ],
+                            "height": 302,
+                            "hidden": false,
+                            "active": "explorer"
+                        },
+                        "bottom": {
+                            "tabs": [
+                                "palette"
+                            ],
+                            "hidden": false,
+                            "active": "palette"
+                        }
+                    }
+                }
             }
-        }
+        },
+        "debug": {
+            "filter": "filterCurrent"
+        },
+        "menu-deploymenu-item-node": true,
+        "menu-deploymenu-item-full": false,
+        "menu-menu-item-right-sidebar": true,
+        "menu-deploymenu-item-flow": false
     }
 }

@@ -14,6 +14,8 @@
   "license": "ISC",
   "dependencies": {
     "node-red": "^5.0.7",
-    "node-red-node-mysql": "~3.0.3"
+    "node-red-contrib-opcua": "~0.2.355",
+    "node-red-node-mysql": "~3.0.3",
+    "node-red-node-ping": "~0.3.3"
   }
 }
